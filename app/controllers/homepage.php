@@ -7,13 +7,13 @@ use App\queryBuilder;
 $db = new queryBuilder();
 
 //$result = $db->getAll('posts');
-//$result = $db->getOne('posts', 2);
+$result = $db->getOne('posts', 2);
 
 //$db->update('posts', [
 //    'title' =>  'Insert -v2',
 //    'body'  =>  'This is test new method Insert -v2'
 //], 3);
 
-$db->delete(3, 'posts');
+//$db->delete(3, 'posts');
 
-//var_dump($result);
+var_dump($result);

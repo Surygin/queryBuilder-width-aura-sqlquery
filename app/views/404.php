@@ -1,9 +1,8 @@
-<?php $this->layout('template', ['title' => 'About']) ?>
+<?php $this->layout('template', ['title' => '404']) ?>
 
 <div class="container">
     <div class="row">
-        <h1>This is About page!</h1>
-        <p>Hello, <?=$this->e($name)?></p>
+        <h1>404 not found.</h1>
     </div>
     <!-- /.row -->
 </div>
